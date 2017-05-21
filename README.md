@@ -30,9 +30,9 @@ Copy and paste this into your Linux host machine
     <?xml version="1.0" encoding="UTF-8"?>
     <manifest>
      
-      <remote fetch="git://github.com/FEDEVEL" name="fedevel"/>
+      <remote fetch="git://github.com/Martaolru" name="Martaolru"/>
      
-      <project remote="fedevel" revision="jethro" name="meta-openrex" path="sources/meta-openrex">
+      <project remote="Martaolru" revision="jethro" name="meta-openrex" path="sources/meta-openrex">
         <copyfile src="openrex-setup.sh" dest="openrex-setup.sh"/>
       </project>
     </manifest>
@@ -52,6 +52,7 @@ Here is a list of 'machine names' which you can use to build OpenRex images. Use
  
  
     imx6q-openrex
+    imx6s-openrex
      
 ### Setup and Build Console image
     MACHINE=<machine name> source setup-environment build-openrex
